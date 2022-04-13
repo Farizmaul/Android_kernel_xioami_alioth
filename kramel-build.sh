@@ -6,7 +6,7 @@ IMAGE=$(pwd)/out/arch/arm64/boot/Image
 DTBO=$(pwd)/out/arch/arm64/boot/dtbo.img
 START=$(date +"%s")
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
-VERSION=Jasmine
+VERSION=AOSP
 TANGGAL=${VERSION}-$(TZ=Asia/Jakarta date "+%Y%m%d-%H%M")
 export ARCH=arm64
 export SUBARCH=arm64
